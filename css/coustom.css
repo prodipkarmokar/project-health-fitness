@@ -1,0 +1,503 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+/* Google fonts */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container,
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.bg-dark {
+    background-color: #202020 !important;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+/* Header section start */
+.header-section {
+    background-color: #202020;
+    padding: 15px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fefefe;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fefefe;
+    background-color: #e25050;
+}
+
+/* Header section end */
+
+/* Banner section start */
+.Banner-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.Banner-section .banner-text {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+}
+
+.Banner-section .banner-text h3 {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    background: #d24e4d;
+    margin-bottom: 2px;
+}
+
+.Banner-section .banner-text h2 {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 33px;
+    font-weight: 500;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    background: #282726;
+    margin-bottom: 3px;
+}
+
+.Banner-section .banner-text p {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #282726;
+}
+
+/* Banner section end */
+
+/* Features section Start */
+.features-section {
+    padding: 50px 0px 30px;
+}
+
+.features-section .features-text {}
+
+.features-text h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.features-text p {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.features-text span {
+    color: #e25050;
+}
+
+.service-item h2 {
+
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.service-item p {}
+
+/* Features section end */
+
+/* Super trainer section */
+.trainer-section {
+    padding: 50px 0px 50px;
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trainer-section h1 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.trainer-section strong {
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.trainer-section .trainer img {
+    width: 100%;
+}
+
+.trainer-section .id {
+
+    background-color: white;
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #202020;
+}
+
+.trainer-section .id h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.trainer-section .id p {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+/* Super trainer section */
+
+/* Gallery section start */
+.gallery-section {
+    padding: 50px 0px 50px;
+}
+
+.gallery-section h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.gallery-section p {
+    font-size: 12px;
+    color: #777777;
+    margin-bottom: 50px;
+}
+
+.gallery-section strong {
+    display: inline-block;
+    text-align: center;
+    width: 14%;
+    height: 2px;
+    background-color: #232323;
+    margin-bottom: 15px;
+}
+
+.gallery-section .mar-top {
+    margin-top: 20px;
+}
+
+/* Gallery section end */
+
+/* Priceing section start */
+.price-section {
+    padding: 50px 0px 50px;
+    background-color: #e25050;
+    overflow: hidden;
+}
+
+.price-section strong {
+    display: inline-block;
+    text-align: center;
+    width: 16%;
+    height: 2px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.price-section h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+.price-section p {
+    font-size: 12px;
+    color: #777777;
+    margin-bottom: 50px;
+}
+
+.price-section .main-one.mid-one {
+    border: 4px solid white;
+}
+
+.price-section .main-one {
+
+    background-color: #d14343;
+
+    padding: 20px 0px 20px 0px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    overflow: hidden;
+
+    margin-right: 30px;
+
+    margin: auto;
+}
+
+.price-section .pencil {
+    padding: 0px;
+    margin-right: 5p;
+}
+
+.pencil h3 {
+    text-align: t;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fefefe;
+    margin-top: 15px;
+}
+
+.pencil p {
+    color: #fefefe;
+    font-size: 38px;
+    margin-bottom: 0px;
+}
+
+.pencil.list ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.price-section .list ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.price-section .list ul li a i {
+    margin-right: 5px;
+}
+
+.price-section .main-one span {
+    margin-top: 0px;
+    width: 2px;
+    height: 128px;
+    background: white;
+    margin-right: 8px;
+}
+
+/* Priceing section end */
+
+/* Partner section  */
+.partner-section {
+    padding: 50px 0px 50px;
+    overflow: hidden;
+
+}
+
+.partner-section .partner {
+    padding: 30px;
+}
+
+.partner-section .partner h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.partner-section .partner strong {
+    display: inline-block;
+    text-align: center;
+    width: 9%;
+    height: 2px;
+    background-color: #000000;
+    margin-bottom: 15px;
+}
+
+.partner-section .partner ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.partner-section .partner ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+/* Partner section  */
+
+/* Footer section start */
+.footer-section {
+    background-image: url('/img/about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-section .top-footer {
+    display: flex;
+    border-bottom: 1px solid #00000030;
+}
+
+.footer-section .top-footer .left-side {
+    margin-top: 25px;
+}
+
+.footer-section .top-footer .left-side ul {}
+
+.footer-section .top-footer .left-side ul li {}
+
+.footer-section .top-footer .left-side ul li a {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-section .top-footer .left-side ul li i {
+    font-size: 30px;
+}
+
+.footer-section .top-footer .left-side p {
+    color: white;
+    display: inline-block;
+}
+
+.footer-section .top-footer .left-side span {
+    display: inline-block;
+    color: #717171;
+    margin-left: 7px;
+    font-size: 13px;
+}
+
+.footer-section .top-footer .right-side {
+    margin-top: 25px;
+}
+
+.footer-section .top-footer .right-side ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-section .top-footer .right-side ul li {
+    list-style: none;
+}
+
+.footer-section .top-footer .right-side ul li a {
+    padding: 10px;
+    margin: auto;
+    color: white;
+}
+
+.footer-section .bottom-footer {}
+
+.footer-section .bottom-footer .left-side {
+    padding: 50px 30px;
+}
+
+.footer-section .bottom-footer .left-side h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-section .bottom-footer .left-side p {
+    color: white;
+    font-size: 15px;
+}
+
+.footer-section .bottom-footer .left-side ul {}
+
+.footer-section .bottom-footer .left-side ul li {}
+
+.footer-section .bottom-footer .left-side ul li a {
+    color: white;
+}
+
+.footer-section .bottom-footer .left-side ul li a i {
+    font-size: 19px;
+    margin-right: 13px;
+}
+
+.footer-section .bottom-footer .right-side h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-section .bottom-footer .right-side {
+    padding: 50px 30px;
+}
+
+.footer-section .bottom-footer .right-side {}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #20202000;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-group {
+    margin-top: -17px;
+}
+
+.form-group .btn-primary {
+    color: #fff;
+    background-color: #e25050;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.form-group .btn-primary:hover {
+    color: #fff;
+    background-color: #af4242;
+    border-color: #e25050;
+}
+
+.bottom-footer p {
+    color: #6b6b6b;
+}
+.bottom-footer a {
+    color: #6b6b6b;
+}
+
+/* Footer section end */
